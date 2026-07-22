@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
 
   # Add dependencies
   s.add_dependency 'openssl', '< 2.5' if RUBY_VERSION < '2.5'
-  s.add_dependency 'base64', '~> 0.1.0'
+  s.add_dependency 'base64', '>= 0.1.0'
   s.add_development_dependency 'rspec', '~> 3.0'
 end
